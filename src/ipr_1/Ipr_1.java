@@ -6,11 +6,8 @@
 package ipr_1;
 
 import ipr_1.windows.Table;
-
 import entities.BotanicalGarden;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -27,13 +24,6 @@ public class Ipr_1 {
         
         Map<Integer, BotanicalGarden> plants = new HashMap<Integer, BotanicalGarden>();
         table.setEntity(plants);
-        BotanicalGarden garden = new BotanicalGarden(
-                "title",
-                "title",
-                "title",
-                "title",
-                "title"
-        );
         
         table.setVisible(true);
     }
